@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\BS-Tutorial"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Friends Quote",
+		"liveServer.settings.port": 5501
+	}
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: 'Ms Madi', cursive;*/
+    font-family: cursive;
+}
+
+:root {
+    --primary-color: 
+}
+
+body {
+   /* background-image: url("/img/ppl.jpg");*/
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    width: 600px;
+  /*  background-color: lightslategray;*/
+   /* background-color: rgb(176, 206, 233);*/
+   background-color: rgb(201, 228, 226);
+    margin: 10px;
+}
+
+.container a{
+    margin-top: 0;
+    margin-bottom: 0ch;
+}
+.quote{
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+    color:blueviolet;
+}
+
+.character{
+    color:rgb(16, 2, 29); 
+    font-size: 20px;
+    font-weight: 900; 
+    font-style: oblique; 
+}
+
+.audio {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    width:80%;
+}
+.video {
+    margin-top: 5px;
+    margin-bottom: 1px;
+    align-items: center;
+    width: 80%;
+}
+
+hr {
+    margin: 10px 0;
+    width: 50%;
+    border: 1px solid #364ba788;
+}
+
+.buttons {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 100px;
+    display:flex;
+    flex-direction:var(--primary-color);
+    margin-left: 500px;
+}
+
+.next {
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'times new roman';
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(104, 75, 134);
+}
